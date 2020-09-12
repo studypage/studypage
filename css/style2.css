@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-color: rgb(6, 6, 14);
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+  
+    
+}
+
+.footer {
+    position: fixed;
+    margin-top: 100px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(14, 7, 41);
+    color: white;
+    text-align: center;
+ }
+
+
+.main{
+    
+    max-width: 90% ;
+    margin: auto;
+}
+
+
+
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 40px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(230, 240, 231);
+    padding : 5px 20px;
+    border: 1px solid rgb(230, 241, 234);
+    transition: 0.6s ease;
+    
+}
+ul li a:hover{
+    background-color: rgb(227, 240, 227);
+    color: rgb(14, 9, 27);
+}
+ul li.active a{
+    background-color: rgb(227, 238, 227);
+    color: rgb(14, 9, 27);
+}
+.logo img{
+    float: left;
+    width: 90px;
+    height: 90px ;
+    margin-top: 14px;
+}
+.word{
+    margin-top: 35px;
+    float: left;
+    font-size: 30px;
+    padding-left: 10px;
+    color: rgb(233, 233, 245);
+    font-weight: bold;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.title h1{
+    color: #fff;
+    font-size: 46px;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+body{
+    background-color: rgb(213, 223, 223);
+
+}
+
+
+
+
+.about{
+    border: 1px solid rgb(5, 5, 37);
+    padding: 10px 20px;
+    text-align: justify;
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------ This is for mobile version ---------------------------------*/
+
+@media only screen and (min-width: 360px){
+
+    header{
+        background-color: rgb(6, 6, 14);
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+      
+        
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: rgb(230, 240, 231);
+        padding : 5px 20px;
+        border: 1px solid rgb(230, 241, 234);
+        transition: 0.6s ease;
+        font-size: 12px;
+        
+    }
+
+   
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------ This is for desktop version ---------------------------------*/
+@media only screen and (min-width: 1000px){
+
+    header{
+        background-color: rgb(6, 6, 14);
+        height: 20vh;
+        background-size: cover;
+        background-position: center;
+      
+        
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: rgb(230, 240, 231);
+        padding : 5px 20px;
+        border: 1px solid rgb(230, 241, 234);
+        transition: 0.6s ease;
+        font-size: 16px;
+        
+        
+    }
+
+   
+
+   
+       
+
+    
+
+}
+
+
